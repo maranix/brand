@@ -11,18 +11,20 @@ import AppNavbar from './components/AppNavbar.vue'
       <div class="hero">
         <h1>Software Developer</h1>
       </div>
-        <p>
-          Hi, I'm Raman Verma, with a background in collaborating with multiple startups, and transforming their visions into tangible products. 
-          I've been consistently delivering exceptional user experiences and driving projects towards success. 
-          My expertise extends beyond Flutter, encompassing various technologies, allowing me to adapt to diverse project requirements and deliver impactful solutions. 
-          <!-- This one seems more generic/obvious and might not need it at all -->
-          <!-- Committed to continuous learning, I stay updated with industry trends to ensure the highest standards of innovation and quality. -->
-        </p>
+      <p>
+        Hi, I'm Raman Verma, with a background in collaborating with multiple startups, and
+        transforming their visions into tangible products. I've been consistently delivering
+        exceptional user experiences and driving projects towards success. My expertise extends
+        beyond Flutter, encompassing various technologies, allowing me to adapt to diverse project
+        requirements and deliver impactful solutions.
+        <!-- This one seems more generic/obvious and might not need it at all -->
+        <!-- Committed to continuous learning, I stay updated with industry trends to ensure the highest standards of innovation and quality. -->
+      </p>
     </section>
     <!-- Not sure what to do with this space, Possibly better use as an empty space or maybe show blogs? -->
     <section class="grid--item"></section>
     <section class="grid--item">
-    <!-- Project Specific Probably???? -->
+      <!-- Project Specific Probably???? -->
       <p>
         Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint
         ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur

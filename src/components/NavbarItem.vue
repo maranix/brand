@@ -2,7 +2,7 @@
 const props = defineProps({
   href: String,
   text: String,
-  textAlign: String,
+  textAlign: String
 })
 </script>
 
@@ -16,7 +16,7 @@ a {
   margin: 0 1.5rem;
 
   font: 500 1.5rem var(--heading-font-family);
-  text-align: v-bind("$props.textAlign");
+  text-align: v-bind('$props.textAlign');
 
   transition: font-weight 0.1s;
 }
