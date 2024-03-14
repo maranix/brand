@@ -4,7 +4,7 @@ import NavbarItem from './NavbarItem.vue'
 
 <template>
   <nav>
-    <NavbarItem href="/" text="/" text-align="start"/>
+    <NavbarItem href="/" text="Maranix" text-align="start"/>
     <div class="nav--links">
       <NavbarItem href="works" text="Works" />
       <NavbarItem href="blogs" text="Blogs" />

@@ -48,6 +48,8 @@
 body {
   display: flex;
   justify-content: center;
+
+  line-height: 1.5;
   
   color: var(--color-text);
   background: var(--color-background);

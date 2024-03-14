@@ -1,8 +1,5 @@
 <script setup lang="ts">
 import AppNavbar from './components/AppNavbar.vue'
-
-const imageURL: string =
-  'https://images.unsplash.com/photo-1687593883595-6b678fc5c413?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 </script>
 
 <template>
@@ -12,18 +9,20 @@ const imageURL: string =
   <main class="grid--container">
     <section class="grid--item">
       <div class="hero">
-        <h1>Raman Verma</h1>
-        <p>Software Developer</p>
+        <h1>Software Developer</h1>
       </div>
-      <p>
-        Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint
-        ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur
-        officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate
-        dolor minim nulla est proident.
-      </p>
+        <p>
+          Hi, I'm Raman Verma, with a background in collaborating with multiple startups, and transforming their visions into tangible products. 
+          I've been consistently delivering exceptional user experiences and driving projects towards success. 
+          My expertise extends beyond Flutter, encompassing various technologies, allowing me to adapt to diverse project requirements and deliver impactful solutions. 
+          <!-- This one seems more generic/obvious and might not need it at all -->
+          <!-- Committed to continuous learning, I stay updated with industry trends to ensure the highest standards of innovation and quality. -->
+        </p>
     </section>
+    <!-- Not sure what to do with this space, Possibly better use as an empty space or maybe show blogs? -->
     <section class="grid--item"></section>
     <section class="grid--item">
+    <!-- Project Specific Probably???? -->
       <p>
         Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint
         ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur
@@ -63,6 +62,11 @@ img:hover {
 
 .hero > h1 {
   font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.hero > p {
+  margin: 1rem 0;
 }
 
 section > p {
