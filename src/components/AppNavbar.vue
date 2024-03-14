@@ -22,10 +22,9 @@ nav {
 }
 
 .nav--links {
-    width: 50%;
+  width: 50%;
 
-    display: flex;
+  display: flex;
   justify-content: end;
 }
-
 </style>
