@@ -7,31 +7,15 @@ import AppNavbar from './components/AppNavbar.vue'
     <AppNavbar />
   </header>
   <main class="grid--container">
-    <section class="grid--item">
-      <div class="hero">
-        <h1>Software Developer</h1>
-      </div>
+    <section class="grid--item hero">
+      <h1>Software Developer</h1>
       <p>
-        Hi, I'm Raman Verma, with a background in collaborating with multiple startups, and
+        Hi, I'm Raman Verma, With a history of impactful contributions with multiple startups, and
         transforming their visions into tangible products. I've been consistently delivering
         exceptional user experiences and driving projects towards success. My expertise extends
         beyond Flutter, encompassing various technologies, allowing me to adapt to diverse project
         requirements and deliver impactful solutions.
-        <!-- This one seems more generic/obvious and might not need it at all -->
-        <!-- Committed to continuous learning, I stay updated with industry trends to ensure the highest standards of innovation and quality. -->
       </p>
-    </section>
-    <!-- Not sure what to do with this space, Possibly better use as an empty space or maybe show blogs? -->
-    <section class="grid--item"></section>
-    <section class="grid--item">
-      <!-- Project Specific Probably???? -->
-      <p>
-        Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint
-        ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur
-        officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate
-        dolor minim nulla est proident.
-      </p>
-      <!-- <img :src=imageURL alt=""> -->
     </section>
   </main>
 </template>
@@ -57,35 +41,30 @@ img:hover {
   filter: none;
 }
 
-.hero {
-  font-size: 2rem;
-  font-family: var(--heading-font-family);
-}
-
-.hero > h1 {
+h1 {
   font-size: 3rem;
-  margin: 1rem 0;
-}
-
-.hero > p {
-  margin: 1rem 0;
-}
-
-section > p {
   padding: 1rem 0;
-  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  padding: 1rem 0;
 }
 
 .grid--container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 4rem;
 }
 
 .grid--item {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
+  padding: 1rem;
+}
+
+.hero {
+  grid-column: span 2;
 }
 </style>
-./components/AppNavbar.vue
